@@ -1,0 +1,57 @@
+    <link rel="stylesheet" href="style.css">
+<h3>Text</h3>
+<input type="text"/> Starts out empty.<br/>
+<input type="text" placeholder="Hello"/> 'Hello' is placeholder
+<input type="text" value="Hello"/> Starts out with 'Hello' typed in.
+
+<h3>Checkbox</h3>
+<input type="checkbox" checked/> I'm checked.<br/>
+<input type="checkbox"/> I'm NOT checked.
+<i>Note that you have to click the actual box. Labels offer a solution below.</i>
+
+<h3>Radio Buttons</h3>
+<h4>Group one</h4>
+<input type="radio" name="group-name" checked/> I'm checked.<br/>
+<input type="radio" name="group-name"/> I'm NOT checked.
+<h4>Group two</h4>
+<input type="radio" name="group-two" checked/> I'm checked.<br/>
+<input type="radio" name="group-two"/> I'm NOT checked.
+
+<h3>Select</h3>
+<select>
+  <option>Red</option>
+  <option selected>White</option>
+  <option>Blue</option>
+</select>
+
+<h3>Password</h3>
+<input type="password" value="Hello"/>
+
+<h3>Email</h3>
+<input type="email" value="grant@grandcircus.co"/>
+
+<h3>Date</h3>
+<input type="date" value="1941-12-07"/>
+
+<h3>Submit</h3>
+<input type="submit" value="Submit Input" /><br/>
+<button type="submit">Submit Button</button>
+
+<h3>Labels</h3>
+<h4>for text inputs</h4>
+<!-- input nested inside label -->
+<label><input type="text"/> Label</label><br/>
+<!-- input id specified in label 'for' attribute -->
+<input type="text" id="color"/> <label for="color">Color</label>
+
+<h4>for checkboxes</h4>
+<!-- input nested inside label -->
+<label><input type="checkbox" checked/> Click Me!</label><br/>
+<!-- input id specified in label 'for' attribute -->
+<input type="checkbox" id="hasDog"/><label for="hasDog"> Has Dog</label>
+
+<h4>for radio buttons</h4>
+<!-- input nested inside label -->
+<label><input type="radio" name="group3" checked/> Click Me!</label><br/>
+<!-- input id specified in label 'for' attribute -->
+<input type="radio" name="group3" id="noMe"/><label for="noMe"> No, Click Me!</label>

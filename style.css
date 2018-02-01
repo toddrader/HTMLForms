@@ -1,0 +1,18 @@
+html {
+   font-family: "opensans", Helvetica, sans-serif;
+ }
+h3 {
+ color: white;
+ background-color: #1ea8b4;
+ border: 1px solid #188791;
+ border-radius: 5px;
+ padding: .2em .3em;
+ font-weight: normal;
+}
+h4 {
+ font-family: sans-serif;
+}
+ i {
+   display: block;
+   margin-top: .6em;
+ }
